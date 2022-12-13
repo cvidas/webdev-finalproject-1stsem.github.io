@@ -1,0 +1,125 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px black;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    z-index: 100;
+}
+
+nav a img {
+    position: relative;
+    padding: 20px;
+}
+
+nav img {
+    position: relative;
+    width: 250px;
+    height: auto;
+}
+
+nav .navbar {
+    display: flex;
+    justify-content: right;
+    width: 90%;
+}
+
+nav .navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav .navbar ul li {
+    position: relative;
+    padding: 15px 20px;
+}
+
+nav .navbar ul li a {
+    font-family: sans-serif;
+    padding: 10px 0;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(117, 81, 12);
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav .navbar ul li a:hover,
+nav .navbar ul li.active a {
+    color: rgb(198, 149, 25);
+    border-bottom: 3px solid rgba(202, 147, 45, 0.696);
+}
+
+nav .navbar ul li a#login {
+    border-radius: 50px;
+    border: 2px solid;
+    padding: 15px 20px;
+}
+
+
+nav #menu {
+    display: none
+}
+
+nav label {
+    color: rgb(148, 82, 82);
+    font-size: 2.5em;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+    nav label {
+        display: initial;
+    }
+    nav .navbar {
+        display: none;
+        width: 100%;
+        position:absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: rgb(255, 255, 255);
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.566);
+        border-top: 1px solid rgba(110, 102, 102, 0.472);
+    }
+
+    nav .navbar ul {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+
+    nav .navbar ul li ul {
+        position: relative;
+        width: 100%;
+        height: 100px;
+        overflow: hidden;
+        top: 100%;
+        left: 0;
+    }
+
+    nav #menu:checked~ .navbar {
+        display: initial;
+    }
+}

@@ -1,0 +1,291 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px black;
+    display: grid;
+    grid-template-columns: 2.5fr 3fr;
+    align-items: center;
+    z-index: 100;
+}
+
+nav a img {
+    position: relative;
+    padding: 20px;
+}
+
+nav img {
+    position: relative;
+    width: 250px;
+    height: auto;
+}
+
+nav .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+nav .navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .navbar ul > li {
+    position: relative;
+    padding: 15px 20px;
+}
+.navbar ul li#account label.user2,
+nav .navbar ul li a {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px 0;
+    color: rgb(117, 81, 12);
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+}
+
+nav .navbar ul li.course ul {
+    position: absolute;
+    top: 80px;
+    width: 200px;
+    background: rgb(255, 255, 255);
+    display: none;
+    box-shadow: 0 5px 10px black;
+    padding: 5px 20px;
+}
+
+nav .navbar ul li ul li {
+    width: 100%;
+}
+
+nav .navbar ul li.course ul li a {
+    text-align: left;
+    font-size: 12px;
+}
+
+nav .navbar ul li:focus-within > ul,
+nav .navbar ul li:hover > ul {
+    display: initial;
+}
+
+.navbar ul input#user:checked ~ label,
+nav .navbar ul.mn-nv > li >a:hover,
+nav .navbar ul li.course ul li a:hover,
+nav .navbar ul li.course ul li a.active,
+nav .navbar ul li#account label i:hover,
+nav .navbar ul li#account label.user2:hover {
+    color: rgb(198, 149, 25);
+}
+
+
+nav .navbar ul li.active > a {
+    color: rgb(198, 149, 25);
+    border-bottom: 3px solid rgba(202, 147, 45, 0.696);
+}
+
+
+.navbar ul li#account input {
+    display: none;
+}
+
+.navbar ul input#user:checked ~ ul {
+    display: initial;
+}
+
+nav .navbar ul li#account label i {
+    color: rgb(117, 81, 12);
+    font-size: 25px;
+    padding: 10px 11px;
+    border: 2px solid rgb(117, 81, 12);
+    border-radius: 50%;
+}
+
+.navbar ul input#user:checked ~ label i,
+nav .navbar ul li#account label i:hover {
+    color: rgb(198, 149, 25);
+    border-color: rgb(198, 149, 25);
+}
+nav .navbar ul li#account ul {
+    display: none;
+    position: absolute;
+    top: 85px;
+    right: -10px;
+    background-color: white;
+    width: 220px;
+    padding: 20px;
+    box-shadow: 0 0 5px black;
+}
+
+nav .navbar ul li#account ul li:hover {
+    background-color: rgb(255, 251, 240);
+}
+nav .navbar ul li#account ul li:hover a {
+    color: rgb(83, 53, 26);
+}
+nav .navbar ul li#account ul li a {
+    font-size: 12px;
+    color: rgb(125, 108, 80);
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+nav .navbar ul li#account ul li i {
+    font-size: 23px;
+    margin-right: 15px;
+}
+
+.navbar ul li#account label.user2 {
+ display: none;
+ font-size: 13px;
+} 
+
+nav #menu {
+    display: none;
+}
+
+nav > label {
+    color: rgb(148, 82, 82);
+    font-size: 2.5em;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+    nav > label {
+        display: flex;
+        justify-content: right;
+    }
+    nav .navbar {
+        display: none;
+        width: 100%;
+        position:absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: rgb(255, 255, 255);
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.566);
+        border-top: 1px solid rgba(110, 102, 102, 0.472);
+    }
+
+    nav .navbar ul {
+        width: 100%;
+    }
+
+    nav .navbar ul li {
+        width: 100%;
+    }
+
+    nav .navbar ul  {
+        position: relative;
+        width: 100%;
+        top: 100%;
+        left: 0;
+    }
+    nav .navbar ul li.course ul {
+        top: 75px;
+        width: 200px;
+    }
+        
+    nav .navbar ul li.course:focus-within > ul,
+    nav .navbar ul li.course:hover > ul {
+        display: initial;
+    }
+
+    nav .navbar ul li#account ul {
+        top: 75px;
+    }
+
+    .navbar ul li#account label.user1 {
+        display: none;
+    } 
+
+    .navbar ul li#account label.user2 {
+        display: initial;
+    } 
+
+    .navbar ul input#user:checked ~ ul {
+        display: initial;
+    }
+    nav #menu:checked~ .navbar {
+        display: initial;
+    }
+    
+    nav #menu:checked~ .navbar ul > li {
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav #menu:checked~ .navbar ul li ul li {
+        justify-content: left;
+    }
+
+    nav #menu:checked~ .navbar > ul li a {
+        font-size: 13px;
+    }
+    
+}
+
+
+@media (max-width: 800px) {
+
+    nav #menu:checked~ .navbar> ul {
+        display: block;
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+    nav #menu:checked~ .navbar ul > li {
+        display: flex;
+        justify-content: left;
+    }
+    nav #menu:checked~ .navbar ul li.course ul {
+        display: none;
+        position: relative;
+        width: 100%;
+        box-shadow: none;
+        top: 0;
+        left: 0;
+        
+    }
+    nav #menu:checked~ .navbar ul li.course ul li {
+        position: relative;
+    }
+    nav #menu:checked~ .navbar ul li.course ul li a {
+        font-size: 12px;
+    }
+    nav #menu:checked~ .navbar ul li.course:focus-within > ul,
+    nav #menu:checked~ .navbar ul li.course:hover ul {
+        display: initial;
+    }
+
+    nav #menu:checked~ .navbar ul li#account ul {
+        display: none;
+    }
+    nav #menu:checked~ .navbar ul li#account input:checked~ ul {
+        display: flex;
+        width: 100%;
+    }
+}

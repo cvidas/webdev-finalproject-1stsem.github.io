@@ -1,0 +1,71 @@
+
+
+/* main */
+section.sy-mn-cnt {
+    margin: 50px 100px;
+}
+.sy-content .sy-hd {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sy-content h1 {
+    font-size: 50px;
+    color: rgb(91, 62, 23);
+}
+
+
+.sy-content .sy-hd > p {
+    font-size: 19px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+    margin-top: 5px;
+}
+
+.sy-content .sy-hd> p a {
+    color: rgb(117, 90, 22);
+    text-decoration: none;
+}
+.sy-content .sy-hd p.des {
+    font-size: 16px;
+    margin: 10px 100px;
+    letter-spacing: 1px;
+}
+
+.sy-content .ovw-sy {
+    margin: 20px auto;
+    width: 80%;
+    background-color: rgb(255, 253, 244);
+    padding: 20px;;
+    border-radius: 20px;
+    box-shadow: 0 0 2px;
+}
+
+.sy-content .ovw-sy details summary {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(74, 49, 8);
+    padding: 10px;
+}
+
+.ovw-sy details summary i {
+    color: rgb(137, 98, 30);
+    margin: 0 5px;
+}
+.sy-content .ovw-sy details ul {
+    margin: 10px 50px;
+}
+
+.ovw-sy details ul li {
+    margin: 15px;
+}
+
+.ovw-sy details ul li a {
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.ovw-sy details ul li a:hover {
+    color: rgb(165, 99, 42);
+}

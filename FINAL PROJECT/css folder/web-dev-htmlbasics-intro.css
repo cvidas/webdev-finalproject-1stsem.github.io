@@ -1,0 +1,62 @@
+.con-c h1 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(91, 62, 23);
+}
+
+section.main-c {
+    margin: 50px 100px;
+}
+
+.int-con {
+    
+    margin: 20px auto;
+    width: 90%;
+    background-color: rgb(255, 253, 244);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 2px;
+}
+
+.int-con p {
+    color: rgb(44, 44, 44);
+    letter-spacing: 1px;
+}
+
+.img-bx-c {
+    width: 100%;
+    margin: 20px 0;
+}
+
+
+.img-bx-c img {
+    width: 100%;
+}
+
+p.em {
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 30px;
+    color: rgb(120, 120, 120);
+}
+.but {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.but a {
+    background-color: rgb(204, 204, 204);
+    text-decoration: none;
+    padding: 13px 20px;
+    border-radius: 20px;
+    color: black;
+}
+
+.but a:hover {
+    background-color: rgb(48, 33, 6);
+    color: aliceblue;
+}

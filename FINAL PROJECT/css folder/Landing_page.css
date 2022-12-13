@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    
+}
+
+
+section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.add-icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    box-shadow: 0 0 5px rgb(95, 34, 0);
+    color: bisque;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: -20px;
+    z-index: 99;
+}
+
+
+/* banner section */
+.bg {
+
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/sample.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner {
+    background-color: rgba(83, 61, 35, 0.598);
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner .con .tag {
+    text-align: center;
+}
+   
+.banner .tag h1 {
+    letter-spacing: 5px;
+    line-height: 1.2em;
+    font-size: 5.9em;
+    font-family: "Matura MT Script Capitals";
+    text-shadow: 0 0 5px black;
+    
+}
+
+.div3 {
+    width: 100%;
+    padding: 30px;
+    margin-top: 50px;
+
+}
+
+.div3 .up {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 50px;
+}
+
+.div3 .up h6 {
+    width: 70%;
+    font-size: 15px;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    line-height: 23px;
+}
+
+.div3 .down {
+    margin: 0 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.div3 .down button {
+    margin-top: 20px;
+    border-radius: 50px;
+    padding: 18px 50px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.div3 .down button:hover {
+    background-color: rgb(255, 255, 255);  
+    border: 2px solid #fff;
+    color: rgb(0, 0, 0);
+}
+
+
+/*persuade-section*/
+.persuade-section {
+    background-color: rgba(255, 234, 219, 0.394);
+}
+
+.persuade-section .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.lft-pc {
+    margin: 0 auto;
+    width: 450px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.rgt-con:hover,
+.lft-pc:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+.lft-pc img {
+    width: 450px;
+}
+
+.rgt-con {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.rgt-con h3 {
+    font-size: 45px;
+    letter-spacing: 2px;
+    color: rgb(88, 62, 30);
+}
+
+.rgt-con p {
+    margin: 20px 0;
+    font-size: 20px;
+    color: rgb(55, 55, 55);
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.rgt-con a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgb(87, 60, 7);
+    color: white;
+    border: none;
+}
+
+.rgt-con a:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+/*course section*/
+section.course {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+section.course .content {
+    text-align: center;
+}
+section.course .content h3 {
+    font-size: 45px;
+}
+
+section.course .content .boxco {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin: 50px auto;
+    justify-content: space-between;
+}
+
+.boxco div {
+    cursor: pointer;
+    font-weight: 600;
+    padding: 15px 20px;
+    background-color: rgba(166, 164, 158, 0.334);
+}
+
+.boxco div.active,
+.boxco div:hover {
+    background-color: rgb(203, 182, 155);
+}
+
+section.course .content .box-sbc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-sbc > div {
+    background-color: rgba(218, 218, 218, 0.346);
+    width: 300px;
+    margin: 0 30px;
+    padding: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 3px ;
+}
+ 
+section.course .content .box-sbc .imgbxx {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+section.course .content .box-sbc >div:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.box-sbc .imgbxx img {
+    width: 100%;
+}
+
+.box-sbc div h2 {
+    color: rgb(57, 40, 2);
+}
+
+.box-sbc div h4 {
+    color: rgb(74, 74, 74);
+    margin: 10px 0;
+}
+
+.box-sbc div p {
+    font-size: 12px;
+    color: rgb(74, 74, 74);
+}
+
+.box-sbc div button {
+    padding: 10px 20px;
+    color: rgb(170, 130, 67);
+    border: 2px solid rgb(170, 130, 67);
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+}
+section.course .content > button:hover,
+.box-sbc div button:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+ 
+section.course .content > button {
+    padding: 15px 25px;
+    color: white;
+    border: 2px solid rgb(170, 130, 67);
+    background-color: rgb(170, 130, 67);
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+
+/* add infos */
+
+
+section.infoss {
+    background-color: rgba(255, 234, 219, 0.394);
+}
+
+section.infoss .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+section.infoss .imgside {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+section.infoss .details:hover,
+section.infoss .imgside:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+section.infoss .imgside img {
+    width: 90%;
+}
+
+section.infoss .details {
+    padding: 50px;
+}
+
+section.infoss .details h2 {
+    font-size: 45px;
+    letter-spacing: 2px;
+    color: rgb(88, 62, 30);
+}
+
+.details p {
+    margin: 20px 0;
+    font-size: 20px;
+    color: rgb(55, 55, 55);
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.details a {
+    padding: 10px 20px;
+    background-color: rgb(87, 60, 7);
+    color: white;
+    border: none;
+}
+
+.details a:hover {
+    color: white;
+    background-color: black;
+}

@@ -1,0 +1,343 @@
+.wel-mess:hover,
+.ableft:hover, .abright:hover,
+.mv-sec .qt:hover,
+.mv-img:hover,
+.misvis .mv-sec .mis:hover {
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 50px;
+}
+
+.add-icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    box-shadow: 0 0 5px rgb(95, 34, 0);
+    color: bisque;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: -20px;
+    z-index: 99;
+}
+
+section.upper-con {
+    height: 90vh;
+    position: relative;
+    background-color: aliceblue;
+}
+
+
+.upper-con .bgs {
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    left: 10%;
+    top: 0;
+    background-color: rgb(161, 120, 16);
+    z-index: 0;
+}
+
+.upper-con .image-side {
+    position: absolute;
+    top: 75px;
+    left: 75px;
+    width: 65%;
+}
+
+.upper-con .image-side img {
+    width: 100%;
+}
+
+.wel-mess {
+    position: absolute;
+    bottom: 75px;
+    right: 75px;
+    width: 45%;
+    padding: 50px 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+.wel-mess h1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+.wel-mess p {
+    letter-spacing: 1px;
+    margin: 25px;
+}
+
+.wel-mess .but {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.wel-mess a button {
+    text-transform: uppercase;
+    padding: 15px 35px;
+    background-color: rgb(171, 150, 100);
+    border: none;
+    color: white;
+}
+
+.wel-mess a button:hover {
+    background-color: rgb(92, 64, 25);
+}
+
+section.sec2 {
+    background-color: rgb(229, 229, 229);
+    z-index: -2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.sec2 .cont {
+    text-align: center;
+}
+
+section.sec2 .cont p {
+    font-size: 50px;
+    font-style: italic;
+    letter-spacing: 2px;
+    margin-top: 75px;
+}
+
+
+
+
+.AboutCon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.AboutCon .ableft {
+    width: 100%;
+    overflow: hidden;
+}
+
+.AboutCon .abright {
+    width: 100%;
+    padding: 70px 30px 0 50px;
+    background-color: rgba(255, 234, 219, 0.394);
+}
+
+.abright h1 {
+    font-size: 25px;
+}
+
+.AboutCon .abright p {
+    margin-top: 20px;
+}
+
+.AboutCon .abright p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+
+
+
+div.misvis {
+    margin-top: 75px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.misvis .mv-sec {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.misvis .mv-sec .mis p {
+    color: rgb(97, 97, 97);
+    margin: 20px 0;
+    word-spacing: 2px;
+    font-size: 23px;
+    letter-spacing: 1px;
+}
+
+.misvis .mv-sec .mis a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    border-bottom: 6px solid black;
+    font-weight: 700;
+}
+.mv-sec .qt {
+    padding: 30px;
+}
+.mv-sec .qt i {
+    font-size: 60px;
+    color: rgb(165, 95, 42);
+}
+
+.mv-sec .qt p {
+    color: rgb(97, 97, 97);
+    font-style: italic;
+    font-size: 27px;
+}
+
+.mv-img {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.mv-img .mv-bg {
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    right: 0;
+    height: 400px;
+    background-color: rgb(161, 120, 16);
+    z-index: -1;
+}
+
+.mv-img .mv-img-bx {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mv-img .mv-img-bx img {
+    width: 350px;
+    margin-top: 19px;
+}
+
+
+
+/*team section*/
+
+section.team-section {
+    background-color: rgb(255, 255, 255);
+}
+
+.team_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team_list .team {
+    position: relative;
+    text-align: center;
+    margin: 0 40px;
+}
+
+.team_list .team .ImgBox {
+    width: 100%;
+    height: 100%;
+    size: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px black;
+    border: 2px solid rgba(255, 255, 255, 0.87);
+}
+
+.team_list .team .ImgBox img {
+    width: 100%;
+}
+
+.team_list .team > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(122, 80, 2);
+}
+
+.team_list .team h4 {
+    font-size: 15px;
+}
+
+.team .inner-tm {
+    width: 250px;
+    height: 300px;
+    position: relative;
+    top: 0;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    margin-bottom: 20px;
+}
+.team:hover .inner-tm {
+    transform: rotateY(180deg);
+}
+
+.fr-img-tm, .bck-img-tm {
+  width: 100%;
+  height: 100%;
+}
+
+.bck-img-tm {
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(54, 38, 4, 0.616);
+    color: rgb(255, 255, 255);
+    transform: rotateY(180deg);
+}
+
+.bck-img-tm .bck-cntnt {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cntnt h3 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.cntnt .tm-sc-icon {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    padding: 0 25px;
+}
+.cntnt .tm-sc-icon i {
+    font-size: 40px;
+    color: rgb(255, 230, 0);
+}
+
+.cntnt .tm-sc-icon i:hover {
+    color: rgb(166, 130, 83);
+}
+
+.cntnt p {
+    font-style: italic;
+    margin: 20px 40px 0 40px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.cntnt p.author {
+    font-size: 9px;
+    margin-top: 5px;
+    color: bisque;
+}

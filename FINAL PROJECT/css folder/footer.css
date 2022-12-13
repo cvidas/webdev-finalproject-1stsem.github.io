@@ -1,0 +1,126 @@
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 100px;
+}
+
+footer .footer-content {
+    color: rgb(178, 178, 178);
+    width: 100%;
+    position: relative;
+}
+
+.footer-content .upper-part {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.upper-part div {
+    margin: 0 auto;
+}
+
+.upper-part div h3 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.upper-part div ul li {
+    list-style: none;
+}
+
+.upper-part div ul li a {
+    text-decoration: none;
+    color: rgb(169, 169, 169);
+}
+
+.upper-part div ul li a:hover {
+    color: rgb(155, 101, 1);
+}
+
+.upper-part .logo-side .image-logo {
+    width: 200px;
+}
+
+.logo-side .image-logo img {
+    width: 100%;
+}
+
+.upper-part .logo-side .logo-desc > p {
+    color: rgb(155, 101, 1);
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.logo-side .contact-det {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.edugate-con ul li {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.edugate-con ul li a {
+    font-size: 13px;
+}
+
+.upper-part .quick-links ul {
+    width: 100%;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10px;
+}
+
+.quick-links ul li {
+    margin: 4px 20px;
+}
+
+.quick-links ul li a {
+    font-size: 13px;
+    width: 100%;
+    text-align: left;
+}
+
+
+
+.upper-part .social-info {
+    font-size: 30px;
+}
+
+.social-info ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.social-info ul li {
+    margin: 10px;
+}
+
+.social-info ul li i {
+    color: rgb(155, 101, 1);
+}
+
+.social-info ul li i:hover {
+    color: rgb(223, 169, 5);
+}
+
+.footer-content .lower-part {
+    margin-top: 40px;
+    text-align: center;
+}

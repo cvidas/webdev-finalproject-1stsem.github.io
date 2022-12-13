@@ -1,0 +1,39 @@
+
+.AboutCon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.AboutCon .ableft {
+    width: 100%;
+    overflow: hidden;
+}
+
+.AboutCon .abright {
+    width: 100%;
+    padding: 20px 0 0 50px;
+    background-color: rgba(255, 234, 219, 0.394);
+}
+
+.abright h1 {
+    font-size: 25px;
+}
+
+.AboutCon .abright p {
+    margin-top: 20px;
+    text-indent: 25px;
+}
+
+.abright .mis_vis h2 {
+    font-size: 20px;
+}
+.abright .mis_vis {
+    margin: 30px 50px;
+}
+
+.abright .mis_vis h4 {
+    margin: 10px 0 0 30px;
+}
+.abright .mis_vis ul {
+    margin-left: 80px;
+}

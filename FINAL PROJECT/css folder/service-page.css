@@ -1,0 +1,116 @@
+section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.add-icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    box-shadow: 0 0 5px rgb(95, 34, 0);
+    color: bisque;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: -20px;
+    z-index: 99;
+}
+
+
+div.service-banner {
+    background-image: linear-gradient(rgb(165, 111, 57), rgb(187, 166, 115));
+    padding: 50px;
+}
+
+.service-banner .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.content .lftsd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+.service-banner .content .lftsd h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(54, 40, 6);
+}
+
+.service-banner .lftsd h1 span {
+    color: rgb(255, 245, 221);
+}
+
+
+.service-banner .rgtsd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-image: linear-gradient(rgb(253, 248, 239), rgb(163, 140, 100));
+    border-radius: 25%;
+}
+
+.service-banner .rgtsd .rgtct div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.service-banner .rgtsd .rgtct div:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.rgtsd .rgtct div p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    font-family:  "Gabriola";
+    letter-spacing: 2px;
+    line-height: 25px;
+    color: rgb(112, 68, 6);
+
+}
+
+.service-banner .rgtsd div .imgbxxx {
+    width: 155px;
+    height: 155px;
+    border-radius: 70px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    box-shadow: 0 0 2px black;
+}
+.service-banner .rgtsd .div1:hover .imgbxxx,
+.service-banner .rgtsd .div2:hover .imgbxxx,
+.service-banner .rgtsd .div3_:hover .imgbxxx {
+    box-shadow: 0 0 5px black;
+    border-radius: 0%;
+    transition: 0.5s;
+}
+
+.service-banner .rgtsd .div1:hover p,
+.service-banner .rgtsd .div2:hover p,
+.service-banner .rgtsd .div3_:hover p {
+    color: rgb(26, 16, 6);
+    transition: 0.5s;
+}
+.service-banner .rgtsd div .imgbxxx img {
+    width: 250px;
+}
+
+
+
+

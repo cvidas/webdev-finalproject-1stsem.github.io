@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgb(165, 99, 42), white);
+}
+
+.pro {
+    width: 80%;
+    height: 100vh;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.pro .lft-pro {
+    box-shadow: 00 0 5px ;
+    padding: 20px;
+    
+}
+
+.pro .lft-pro .lft-up .img-bx-pro {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lft-up .img-bx-pro img {
+    width: 100%;
+}

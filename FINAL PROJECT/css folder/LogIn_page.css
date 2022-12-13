@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/sample.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 100%;
+    padding: 50px;
+    backdrop-filter: blur(20px);
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width:  700px;
+    background-color: rgba(255, 228, 196, 0.463);
+    padding: 30px 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.822); 
+}
+
+.form form {
+    width: 50%;
+    padding: 20px;
+}
+.form form .home {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.form form .home a i {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.form form .home a i:hover {
+    color: rgb(0, 0, 0);
+}
+
+.form .logo {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.661);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.form .logo img {
+    width: 200px;
+}
+
+.form form h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.form form .form_ {
+    position: relative;
+    width: 100%;
+}
+
+.form form .form_ label { 
+    font-weight: 600;
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
+.form form .form_ input {
+    width: 100%;
+    margin-top: 5px;
+    height: 30px;
+    border-radius: 50px;  
+    border: none;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 20px;
+}
+
+.form form .form_ input:focus {
+    outline: none;
+}
+
+.form form .button {
+    margin-top: 20px;
+}
+
+.form form .button p a {
+    color: black;
+    text-decoration: none;
+}
+
+.form form .button p a:hover {
+    text-decoration: underline;
+}
+
+.form form .button button {
+    color: antiquewhite;
+    width: 100%;
+    background-color: rgb(48, 44, 38);
+    padding: 10px 60px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form .signup {
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+}
